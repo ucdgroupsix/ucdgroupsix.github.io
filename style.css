@@ -1,4 +1,12 @@
-.sect {
-    background-color: #f7f7f7;
-    padding: 20px;
+
+.submission {
+    transition: all 0.5s;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .submission {
+        flex-direction: column;
+    }
 }
